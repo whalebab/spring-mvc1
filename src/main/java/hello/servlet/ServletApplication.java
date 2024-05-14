@@ -17,6 +17,6 @@ public class ServletApplication {
 
 	@Bean
 	ViewResolver internalResourceViewResolver() {
-		return new InternalResourceViewResolver("/WEB-INF/view/", ".jsp");
+		return new InternalResourceViewResolver("/WEB-INF/views/", ".jsp");
 	}
 }
